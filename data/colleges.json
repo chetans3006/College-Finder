@@ -1,0 +1,453 @@
+[
+  {
+    "id": "1",
+    "name": "Indian Institute of Technology Bombay",
+    "slug": "iit-bombay",
+    "location": "Mumbai, India",
+    "state": "Maharashtra",
+    "fees": 120000,
+    "rating": 4.9,
+    "reviews": 2348,
+    "placements": {
+      "avgPackage": 16.5,
+      "highestPackage": 85,
+      "placementRate": 98
+    },
+    "description": "One of India's premier engineering institutions, known for excellence in research and placements.",
+    "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=500&h=300&fit=crop",
+    "courses": [
+      { "id": "cs1", "name": "B.Tech Computer Science", "duration": 4 },
+      { "id": "ec1", "name": "B.Tech Electronics", "duration": 4 },
+      { "id": "me1", "name": "B.Tech Mechanical", "duration": 4 }
+    ],
+    "reviews_data": [
+      {
+        "author": "Amit K.",
+        "rating": 5,
+        "comment": "Excellent campus life and great placements."
+      },
+      {
+        "author": "Priya S.",
+        "rating": 5,
+        "comment": "World-class faculty and infrastructure."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Indian Institute of Technology Delhi",
+    "slug": "iit-delhi",
+    "location": "New Delhi, India",
+    "state": "Delhi",
+    "fees": 115000,
+    "rating": 4.85,
+    "reviews": 2156,
+    "placements": {
+      "avgPackage": 15.8,
+      "highestPackage": 80,
+      "placementRate": 97
+    },
+    "description": "Premier institution with strong industry connections and excellent academic standards.",
+    "image": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=500&h=300&fit=crop",
+    "courses": [
+      { "id": "cs2", "name": "B.Tech Computer Science", "duration": 4 },
+      { "id": "ec2", "name": "B.Tech Electronics", "duration": 4 }
+    ],
+    "reviews_data": [
+      {
+        "author": "Rajesh M.",
+        "rating": 5,
+        "comment": "Outstanding academic environment."
+      },
+      {
+        "author": "Sneha P.",
+        "rating": 4,
+        "comment": "Great opportunities, competitive environment."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Indian Institute of Technology Madras",
+    "slug": "iit-madras",
+    "location": "Chennai, India",
+    "state": "Tamil Nadu",
+    "fees": 110000,
+    "rating": 4.8,
+    "reviews": 1945,
+    "placements": {
+      "avgPackage": 15.2,
+      "highestPackage": 75,
+      "placementRate": 96
+    },
+    "description": "Renowned for research excellence and strong placements in IT sector.",
+    "image": "https://images.unsplash.com/photo-1713448571778-0f4f5d5c2a7f?w=500&h=300&fit=crop",
+    "courses": [
+      { "id": "cs3", "name": "B.Tech Computer Science", "duration": 4 },
+      { "id": "civil3", "name": "B.Tech Civil", "duration": 4 }
+    ],
+    "reviews_data": [
+      {
+        "author": "Vikram R.",
+        "rating": 5,
+        "comment": "Excellent research opportunities."
+      },
+      {
+        "author": "Divya M.",
+        "rating": 4,
+        "comment": "Good placements and facilities."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Indian Institute of Technology Kanpur",
+    "slug": "iit-kanpur",
+    "location": "Kanpur, India",
+    "state": "Uttar Pradesh",
+    "fees": 105000,
+    "rating": 4.75,
+    "reviews": 1823,
+    "placements": {
+      "avgPackage": 14.9,
+      "highestPackage": 72,
+      "placementRate": 95
+    },
+    "description": "Top engineering college known for innovation and strong academic curriculum.",
+    "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=500&h=300&fit=crop",
+    "courses": [
+      { "id": "cs4", "name": "B.Tech Computer Science", "duration": 4 },
+      { "id": "me4", "name": "B.Tech Mechanical", "duration": 4 }
+    ],
+    "reviews_data": [
+      {
+        "author": "Arjun K.",
+        "rating": 4,
+        "comment": "Great faculty and learning environment."
+      },
+      {
+        "author": "Neha S.",
+        "rating": 4,
+        "comment": "Strong curriculum and industry connections."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "National Institute of Technology Trichy",
+    "slug": "nit-trichy",
+    "location": "Trichy, India",
+    "state": "Tamil Nadu",
+    "fees": 85000,
+    "rating": 4.6,
+    "reviews": 1567,
+    "placements": {
+      "avgPackage": 12.5,
+      "highestPackage": 60,
+      "placementRate": 93
+    },
+    "description": "Leading NIT institution with good placement record and modern infrastructure.",
+    "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=500&h=300&fit=crop",
+    "courses": [
+      { "id": "cs5", "name": "B.Tech Computer Science", "duration": 4 },
+      { "id": "me5", "name": "B.Tech Mechanical", "duration": 4 }
+    ],
+    "reviews_data": [
+      {
+        "author": "Suresh K.",
+        "rating": 4,
+        "comment": "Good college with decent placements."
+      },
+      {
+        "author": "Ananya D.",
+        "rating": 4,
+        "comment": "Campus is nice, faculty is supportive."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Delhi Technological University",
+    "slug": "dtu",
+    "location": "New Delhi, India",
+    "state": "Delhi",
+    "fees": 75000,
+    "rating": 4.45,
+    "reviews": 1234,
+    "placements": {
+      "avgPackage": 11.8,
+      "highestPackage": 55,
+      "placementRate": 91
+    },
+    "description": "Premier government engineering college with strong industry partnerships.",
+    "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=500&h=300&fit=crop",
+    "courses": [
+      { "id": "cs6", "name": "B.Tech Computer Science", "duration": 4 },
+      { "id": "ec6", "name": "B.Tech Electronics", "duration": 4 }
+    ],
+    "reviews_data": [
+      {
+        "author": "Harsh P.",
+        "rating": 4,
+        "comment": "Good placements, vibrant campus life."
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Birla Institute of Technology and Science",
+    "slug": "bits-pilani",
+    "location": "Pilani, India",
+    "state": "Rajasthan",
+    "fees": 250000,
+    "rating": 4.7,
+    "reviews": 1876,
+    "placements": {
+      "avgPackage": 14.2,
+      "highestPackage": 70,
+      "placementRate": 94
+    },
+    "description": "Private engineering college known for research, innovation, and quality education.",
+    "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=500&h=300&fit=crop",
+    "courses": [
+      { "id": "cs7", "name": "B.Tech Computer Science", "duration": 4 },
+      { "id": "me7", "name": "B.Tech Mechanical", "duration": 4 }
+    ],
+    "reviews_data": [
+      {
+        "author": "Mohit S.",
+        "rating": 5,
+        "comment": "Excellent for research opportunities."
+      },
+      {
+        "author": "Kavya R.",
+        "rating": 4,
+        "comment": "Great placements and mentoring."
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Manipal Institute of Technology",
+    "slug": "mit",
+    "location": "Manipal, India",
+    "state": "Karnataka",
+    "fees": 220000,
+    "rating": 4.55,
+    "reviews": 1432,
+    "placements": {
+      "avgPackage": 12.8,
+      "highestPackage": 58,
+      "placementRate": 92
+    },
+    "description": "Globally recognized institution with strong international partnerships.",
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=300&fit=crop",
+    "courses": [
+      { "id": "cs8", "name": "B.Tech Computer Science", "duration": 4 },
+      { "id": "civil8", "name": "B.Tech Civil", "duration": 4 }
+    ],
+    "reviews_data": [
+      {
+        "author": "Alok T.",
+        "rating": 4,
+        "comment": "Global exposure, good infrastructure."
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "National Institute of Technology Rourkela",
+    "slug": "nit-rourkela",
+    "location": "Rourkela, India",
+    "state": "Odisha",
+    "fees": 82000,
+    "rating": 4.5,
+    "reviews": 1289,
+    "placements": {
+      "avgPackage": 11.5,
+      "highestPackage": 52,
+      "placementRate": 90
+    },
+    "description": "NIT with strong foundation in engineering and technology education.",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop",
+    "courses": [
+      { "id": "cs9", "name": "B.Tech Computer Science", "duration": 4 },
+      { "id": "me9", "name": "B.Tech Mechanical", "duration": 4 }
+    ],
+    "reviews_data": [
+      {
+        "author": "Rohan K.",
+        "rating": 4,
+        "comment": "Good academics and placements."
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Vellore Institute of Technology",
+    "slug": "vit",
+    "location": "Vellore, India",
+    "state": "Tamil Nadu",
+    "fees": 200000,
+    "rating": 4.4,
+    "reviews": 1567,
+    "placements": {
+      "avgPackage": 11.2,
+      "highestPackage": 50,
+      "placementRate": 89
+    },
+    "description": "Private university with focus on practical learning and industry exposure.",
+    "image": "https://images.unsplash.com/photo-1519230881161-2e3971cf17f4?w=500&h=300&fit=crop",
+    "courses": [
+      { "id": "cs10", "name": "B.Tech Computer Science", "duration": 4 },
+      { "id": "civil10", "name": "B.Tech Civil", "duration": 4 }
+    ],
+    "reviews_data": [
+      {
+        "author": "Deepak M.",
+        "rating": 4,
+        "comment": "Good practical training and placements."
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "National Institute of Technology Warangal",
+    "slug": "nit-warangal",
+    "location": "Warangal, India",
+    "state": "Telangana",
+    "fees": 80000,
+    "rating": 4.48,
+    "reviews": 1121,
+    "placements": {
+      "avgPackage": 11.8,
+      "highestPackage": 54,
+      "placementRate": 91
+    },
+    "description": "Premier NIT with excellent placements and modern infrastructure.",
+    "image": "https://images.unsplash.com/photo-1506109773649-d080f4c9e588?w=500&h=300&fit=crop",
+    "courses": [
+      { "id": "cs11", "name": "B.Tech Computer Science", "duration": 4 },
+      { "id": "me11", "name": "B.Tech Mechanical", "duration": 4 }
+    ],
+    "reviews_data": [
+      {
+        "author": "Srinivas P.",
+        "rating": 4,
+        "comment": "Great placements and campus life."
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "SRM Institute of Science and Technology",
+    "slug": "srm",
+    "location": "Chennai, India",
+    "state": "Tamil Nadu",
+    "fees": 180000,
+    "rating": 4.35,
+    "reviews": 1456,
+    "placements": {
+      "avgPackage": 10.8,
+      "highestPackage": 48,
+      "placementRate": 87
+    },
+    "description": "Major private institution with strong focus on academics and innovation.",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop",
+    "courses": [
+      { "id": "cs12", "name": "B.Tech Computer Science", "duration": 4 },
+      { "id": "ec12", "name": "B.Tech Electronics", "duration": 4 }
+    ],
+    "reviews_data": [
+      {
+        "author": "Shruti K.",
+        "rating": 4,
+        "comment": "Good curriculum and placements."
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "College of Engineering, Pune",
+    "slug": "coep",
+    "location": "Pune, India",
+    "state": "Maharashtra",
+    "fees": 95000,
+    "rating": 4.52,
+    "reviews": 987,
+    "placements": {
+      "avgPackage": 12.1,
+      "highestPackage": 56,
+      "placementRate": 92
+    },
+    "description": "Historic engineering college with strong academic traditions and industry connections.",
+    "image": "https://images.unsplash.com/photo-1524005997946-a1c2e315a42f?w=500&h=300&fit=crop",
+    "courses": [
+      { "id": "cs13", "name": "B.Tech Computer Science", "duration": 4 },
+      { "id": "me13", "name": "B.Tech Mechanical", "duration": 4 }
+    ],
+    "reviews_data": [
+      {
+        "author": "Aniket M.",
+        "rating": 4,
+        "comment": "Strong technical training."
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Indian Institute of Technology Kharagpur",
+    "slug": "iit-kharagpur",
+    "location": "Kharagpur, India",
+    "state": "West Bengal",
+    "fees": 112000,
+    "rating": 4.78,
+    "reviews": 1754,
+    "placements": {
+      "avgPackage": 15.5,
+      "highestPackage": 78,
+      "placementRate": 96
+    },
+    "description": "India's first IIT with outstanding research facilities and industry partnerships.",
+    "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=500&h=300&fit=crop",
+    "courses": [
+      { "id": "cs14", "name": "B.Tech Computer Science", "duration": 4 },
+      { "id": "me14", "name": "B.Tech Mechanical", "duration": 4 }
+    ],
+    "reviews_data": [
+      {
+        "author": "Sourav D.",
+        "rating": 5,
+        "comment": "Excellent facilities and strong alumni network."
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Indian Institute of Technology Guwahati",
+    "slug": "iit-guwahati",
+    "location": "Guwahati, India",
+    "state": "Assam",
+    "fees": 108000,
+    "rating": 4.72,
+    "reviews": 1432,
+    "placements": {
+      "avgPackage": 14.8,
+      "highestPackage": 74,
+      "placementRate": 95
+    },
+    "description": "Premier IIT with scenic campus and strong academic programs.",
+    "image": "https://images.unsplash.com/photo-1516733956365-f037190424f7?w=500&h=300&fit=crop",
+    "courses": [
+      { "id": "cs15", "name": "B.Tech Computer Science", "duration": 4 },
+      { "id": "ec15", "name": "B.Tech Electronics", "duration": 4 }
+    ],
+    "reviews_data": [
+      {
+        "author": "Arijit S.",
+        "rating": 4,
+        "comment": "Great placements, beautiful campus."
+      }
+    ]
+  }
+]
