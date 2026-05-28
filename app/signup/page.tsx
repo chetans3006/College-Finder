@@ -94,7 +94,7 @@ export default function SignupPage() {
               </label>
               <Input
                 type="text"
-                placeholder="Your name"
+                placeholder="Your-name"
                 {...register("name")}
                 className={errors.name ? "border-red-500" : ""}
               />
