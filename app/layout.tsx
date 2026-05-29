@@ -9,25 +9,12 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "CollegeFinder - Discover Your Dream College",
-  description:
-    "Find and compare engineering colleges across India. Explore placements, fees, ratings, and more.",
+  description: "Find and compare engineering colleges across India.",
 
   icons: {
-    icon: [
-      {
-        url: "unilogo.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "unilogo.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "public/unilogo.png",
+    shortcut: "public/unilogo.png",
+    apple: "public/unilogo.png",
   },
 };
 
