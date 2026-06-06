@@ -49,9 +49,9 @@ Be encouraging, informative, and personalized in your responses.`
           .join('') || msg.content || '',
     }))
 
-    console.log('[v0] Calling streamText with model: openai/gpt-4o-mini')
+    console.log('[v0] Calling streamText with model: google/gemini-2.0-flash')
     const result = streamText({
-      model: 'openai/gpt-4o-mini',
+      model: 'google/gemini-2.0-flash',
       system: systemPrompt,
       messages: modelMessages,
       maxTokens: 1024,
