@@ -2,15 +2,17 @@
 
 import { useState, useRef, useEffect } from 'react'
 import { useChat } from '@ai-sdk/react'
-import { DefaultChatTransport } from 'ai'
 import { Send, Loader2 } from 'lucide-react'
 
 export default function ChatInterface() {
   const [input, setInput] = useState('')
   const messagesEndRef = useRef<HTMLDivElement>(null)
 
-  const { messages, sendMessage, status } = useChat({
-    transport: new DefaultChatTransport({ api: '/api/chat' }),
+  const { messages, sendMessage, status, error } = useChat({
+    api: '/api/chat',
+    onError: (error) => {
+      console.error('[v0] Chat error:', error)
+    },
   })
 
   const isLoading = status === 'streaming' || status === 'submitted'
@@ -27,8 +29,14 @@ export default function ChatInterface() {
     e.preventDefault()
     if (!input.trim() || isLoading) return
 
-    sendMessage({ text: input })
-    setInput('')
+    console.log('[v0] Sending message:', input)
+    try {
+      sendMessage({ text: input })
+      setInput('')
+      console.log('[v0] Message sent successfully')
+    } catch (err) {
+      console.error('[v0] Error sending message:', err)
+    }
   }
 
   return (
@@ -43,6 +51,14 @@ export default function ChatInterface() {
 
       {/* Messages Container */}
       <div className="flex-1 overflow-y-auto p-6 space-y-4 bg-background">
+        {error && (
+          <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-red-800">
+            <p className="font-semibold text-sm">Error</p>
+            <p className="text-sm mt-1">
+              {error.message || 'Failed to get response from AI. Please try again.'}
+            </p>
+          </div>
+        )}
         {messages.length === 0 ? (
           <div className="flex items-center justify-center h-full">
             <div className="text-center">
